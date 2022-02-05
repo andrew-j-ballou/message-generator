@@ -1,2 +1,2 @@
 # message-generator
-Simple Dad Joke generator, Codecademy project
+Simple 'Animal crosses the road' joke generator, Codecademy project
