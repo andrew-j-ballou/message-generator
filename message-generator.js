@@ -8,9 +8,12 @@ const punchlines = ['To get to the other side.', 'Because it was hungry.', 'To f
 
 //function to create a random joke
 const jokeGenerator = (animals, crossing, punchlines) => {
-    randomAnimal = Math.floor(Math.random * animals.length + 1);
-    randomCrossing = Math.floor(Math.random * crossing.length + 1); 
-    randomPunchline = Math.floor(Math.random * punchlines.length + 1);
+    randomAnimal = Math.floor(Math.random() * animals.length);
+    randomCrossing = Math.floor(Math.random() * crossing.length); 
+    randomPunchline = Math.floor(Math.random() * punchlines.length);
+    console.log(randomAnimal);
+    console.log(randomCrossing);
+    console.log(randomPunchline);
 
     joke = 'Why did the ${animals[randomAnimal]} cross the ${crossing[randomCrossing]}? ${punchlines[randomPunchline]}';
     return joke;
