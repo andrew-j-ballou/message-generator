@@ -15,3 +15,5 @@ const jokeGenerator = (animals, crossing, punchlines) => {
     joke = 'Why did the ${animals[randomAnimal]} cross the ${crossing[randomCrossing]}? ${punchlines[randomPunchline]}';
     return joke;
 }
+
+console.log(jokeGenerator(animals, crossing, punchlines));
